@@ -1,6 +1,7 @@
 .App {
-  float: right;
-  text-align: center;
+  margin: auto;
+  width: 40%;
+  align-items: center;
 }
 
 #oo {
