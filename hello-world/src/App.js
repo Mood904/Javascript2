@@ -1,21 +1,26 @@
+import React, { Component } from 'react'
+
 import logo from './logo.svg'
 import './App.css'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 
-import React, { Component } from 'react';
+
 
 
 class App extends Component {
   render() {
     return (
-      <>
+      
         <div className="App">
-        <Counter />
+        <FunctionClick />
+        <ClassClick />
         </div> 
         
         
-      </>
+    
     )
   }
 } 
