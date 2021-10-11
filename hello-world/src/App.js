@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import Greet from './components/Greet'
-import Message from'./components/Message.js'
+import logo from './logo.svg'
+import './App.css'
+import Counter from './components/Counter'
+
 
 import React, { Component } from 'react';
 
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <>
         <div className="App">
-         <Message></Message>
+        <Counter />
         </div> 
         
         
