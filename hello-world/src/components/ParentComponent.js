@@ -13,8 +13,8 @@ import ChildComponent from './ChildComponent'
      }
 
 
-     greetParent() {
-         alert(`Howdy ${this.state.parentName}`)
+     greetParent(childName) {
+         alert(`Howdy ${this.state.parentName} from ${childName}`)
 
      }
      
