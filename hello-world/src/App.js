@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 
 import logo from './logo.svg'
 import './App.css'
-
-import ParentComponent from './components/ParentComponent'
+import NameList from './components/NameList'
 
 
 
@@ -15,7 +14,7 @@ class App extends Component {
     return (
       
         <div className="App">
-        <ParentComponent />
+        <NameList />
        
         </div> 
         
