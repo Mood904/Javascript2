@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import NameList from './components/NameList'
-
+import Person from './components/Person'
 
 
 
