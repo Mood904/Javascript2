@@ -8,7 +8,7 @@ import Stylesheet from './components/Stylesheet'
 import Inline from './components/Inline'
 import styles from './appStyles.modules.css'
 import './appStyles.css'
-
+import Forms from './components/Forms'
 
 
 
@@ -23,6 +23,7 @@ class App extends Component {
         <Inline />
         <h1 className='error'>ERROR!!</h1>
         <h1 className='success'> Nice Work!!</h1>
+        <Forms />
         
        
         </div> 
