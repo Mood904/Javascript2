@@ -5,6 +5,7 @@ import './App.css'
 import NameList from './components/NameList'
 import Person from './components/Person'
 import Stylesheet from './components/Stylesheet'
+import Inline from './components/Inline'
 
 
 
@@ -17,6 +18,7 @@ class App extends Component {
         <div className="App">
        
         <Stylesheet primary={true} />
+        <Inline />
        
         </div> 
         
