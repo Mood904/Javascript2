@@ -30,6 +30,7 @@ class Forms extends Component {
 
     handleSubmit = event => {
         alert(`${this.state.name} ${this.state.comments} ${this.state.topic}`)
+        event.preventDefault()
     }
     
     
