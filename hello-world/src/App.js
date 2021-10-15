@@ -4,6 +4,7 @@ import logo from './logo.svg'
 import './App.css'
 import NameList from './components/NameList'
 import Person from './components/Person'
+import Stylesheet from './components/Stylesheet'
 
 
 
@@ -14,7 +15,8 @@ class App extends Component {
     return (
       
         <div className="App">
-        <NameList />
+       
+        <Stylesheet primary={true} />
        
         </div> 
         
