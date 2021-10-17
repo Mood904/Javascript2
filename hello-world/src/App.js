@@ -9,6 +9,7 @@ import Inline from './components/Inline'
 import styles from './appStyles.modules.css'
 import './appStyles.css'
 import Forms from './components/Forms'
+import Lifecycle1 from './components/Lifecycle1'
 
 
 
@@ -19,11 +20,10 @@ class App extends Component {
       
         <div className="App">
        
-        <Stylesheet primary={true} />
-        <Inline />
-        <h1 className='error'>ERROR!!</h1>
-        <h1 className='success'> Nice Work!!</h1>
-        <Forms />
+        
+        <h1>Lifecycle1</h1>
+
+        
         
        
         </div> 
